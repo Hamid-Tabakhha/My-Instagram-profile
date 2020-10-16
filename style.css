@@ -1,0 +1,205 @@
+.navbar-brnd {
+    font-family: Brush Script MT;
+    font-size: large;
+    margin-left: 214px;
+}
+
+.info {
+    display: flex;
+    margin-top: 4%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 82px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  
+  .grid-item2 {
+    position: relative;
+  }
+
+
+.heart-icon{
+    width: 60px;
+    height: 60px;   
+    margin-right: auto;
+}
+.direct-icon{
+    width: 40px;
+    height: 40px;
+}
+.home-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.profile-img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20%;
+    height: 25%;
+    margin: 20px 5px;
+}
+
+hr{
+    width: 75%;
+    border-top: 1px solid #a8a6a6;
+}
+.numposts {
+    right: 313px;
+    position: relative;
+    top: 71px;
+    font-weight: bold;
+    font-size: 21px;
+}
+.posts{
+    top: 70px;
+    position: relative;
+    right: 300px;
+    font-size: 21px;
+}
+.numfollowers{
+    right: 275px;
+    position: relative;
+    top: 71px;
+    font-weight: bold;
+    font-size: 21px;
+}
+.followers{
+    top: 70px;
+    position: relative;
+    right: 262px;
+    font-size: 21px;
+
+}
+.numfollowing{
+    right: 237px;
+    position: relative;
+    top: 71px;
+    font-weight: bold;
+    font-size: 21px;
+}
+.following{
+    top: 70px;
+    position: relative;
+    right: 224px;
+    font-size: 21px;
+}
+.username{
+    position: relative;
+    margin-left: 33%;
+    font-size: 35px;
+}
+.name{
+    position: relative;
+    top: 110px;
+    font-size: 23px;
+    right: 660px ;
+}
+.center {
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.grid-container-post {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item-post {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .img-fluid{
+      width: 250px;
+      height: 250px;
+  }
+
+
+  * {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  /* background-color: #555; */
+  color: #a8a6a6;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+/* #Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;} */
+
+.edit-profile{
+    text-align: center;
+}
+
+
+
+select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    margin: auto;
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+    margin: auto;
+  background-color: #45a049;
+}
+
+
+
