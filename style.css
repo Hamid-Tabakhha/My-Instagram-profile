@@ -13,29 +13,32 @@
     display: grid;
     grid-template-columns: auto auto auto;
     height: 82px;
-  }
-  .grid-item {
+}
+
+.grid-item {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
 
-  
-  .grid-item2 {
+
+.grid-item2 {
     position: relative;
-  }
+}
 
 
-.heart-icon{
+.heart-icon {
     width: 60px;
-    height: 60px;   
+    height: 60px;
     margin-right: auto;
 }
-.direct-icon{
+
+.direct-icon {
     width: 40px;
     height: 40px;
 }
-.home-icon{
+
+.home-icon {
     width: 40px;
     height: 40px;
 }
@@ -48,10 +51,11 @@
     margin: 20px 5px;
 }
 
-hr{
+hr {
     width: 75%;
     border-top: 1px solid #a8a6a6;
 }
+
 .numposts {
     position: relative;
     top: 71px;
@@ -59,55 +63,64 @@ hr{
     font-weight: bold;
     font-size: 21px;
 }
-.posts{
+
+.posts {
     position: relative;
     top: 70px;
     right: 24%;
     font-size: 21px;
 }
-.numfollowers{
+
+.numfollowers {
     position: relative;
     top: 71px;
     right: 21%;
     font-weight: bold;
     font-size: 21px;
 }
-.followers{
-        position: relative;
+
+.followers {
+    position: relative;
     top: 70px;
     right: 20%;
     font-size: 21px;
 
 }
-.numfollowing{
+
+.numfollowing {
     position: relative;
     top: 71px;
     right: 17%;
     font-weight: bold;
     font-size: 21px;
 }
-.following{
+
+.following {
     position: relative;
     top: 70px;
     right: 16%;
     font-size: 21px;
 }
-.username{
+
+.username {
     position: relative;
     margin-left: 33%;
     font-size: 35px;
 }
-.name{
+
+.name {
     position: relative;
     top: 137px;
     font-size: 23px;
-    right: 55.5% ;
+    right: 55.5%;
 }
+
 .center {
     width: 40%;
     text-align: center;
     font-size: 25px;
 }
+
 select {
     width: 15%;
     padding: 12px 20px;
@@ -140,52 +153,54 @@ input[type=submit]:hover {
     grid-gap: 10px;
     grid-template-columns: auto auto auto;
     padding: 10px;
-  }
-  
-  .grid-item-post {
+}
+
+.grid-item-post {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
 
-  .img-fluid{
-      width: 250px;
-      height: 250px;
-  }
+.img-fluid {
+    width: 250px;
+    height: 250px;
+}
 
 
-  * {box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
 
 body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
 }
 
 .tablink {
-  color: #a8a6a6;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+    color: #a8a6a6;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
 }
 
 .tablink:hover {
-  background-color: #777;
+    background-color: #777;
 }
 
 .tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
 }
 
 
-.edit-profile{
+.edit-profile {
     text-align: center;
 }
 
