@@ -53,43 +53,43 @@ hr{
     border-top: 1px solid #a8a6a6;
 }
 .numposts {
-    right: 17%;
     position: relative;
     top: 71px;
+    right: 25%;
     font-weight: bold;
     font-size: 21px;
 }
 .posts{
-    top: 70px;
     position: relative;
-    right: 16%;
+    top: 70px;
+    right: 24%;
     font-size: 21px;
 }
 .numfollowers{
-    right: 13%;
     position: relative;
     top: 71px;
+    right: 21%;
     font-weight: bold;
     font-size: 21px;
 }
 .followers{
+        position: relative;
     top: 70px;
-    position: relative;
-    right: 12%;
+    right: 20%;
     font-size: 21px;
 
 }
 .numfollowing{
-    right: 9%;
     position: relative;
     top: 71px;
+    right: 17%;
     font-weight: bold;
     font-size: 21px;
 }
 .following{
-    top: 70px;
     position: relative;
-    right: 8%;
+    top: 70px;
+    right: 16%;
     font-size: 21px;
 }
 .username{
@@ -101,7 +101,7 @@ hr{
     position: relative;
     top: 137px;
     font-size: 23px;
-    right: 54% ;
+    right: 55.5% ;
 }
 .center {
     width: 40%;
@@ -189,6 +189,3 @@ body, html {
     text-align: center;
 }
 
-.following .numfollowing .numposts .posts .numfollowers .followers {
-    border: 3px solid green;
-}
