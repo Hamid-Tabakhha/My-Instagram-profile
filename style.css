@@ -156,16 +156,14 @@ input[type=submit]:hover {
 
   * {box-sizing: border-box}
 
-/* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
 }
 
-/* Style tab links */
 .tablink {
-  /* background-color: #555; */
+
   color: #a8a6a6;
   float: left;
   border: none;
@@ -180,7 +178,6 @@ body, html {
   background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white;
   display: none;
@@ -188,18 +185,8 @@ body, html {
   height: 100%;
 }
 
-/* #Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;} */
 
 .edit-profile{
     text-align: center;
 }
-
-
-
-
-
-
 
