@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>InstagrmProfile</title>
     <link rel="icon" href="Images\Instagram.jpg" type="image/icon type">
 </head>
@@ -13,7 +14,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="app.js"></script>
+<script src="navbar.js"></script>
+
 <link rel="stylesheet" href="style.css">
 <body>
 <nav class="navbar navbar-inverse">
@@ -73,20 +75,19 @@
     <h3>Posts</h3>
     <div class="grid-container grid-container-post">
         <div class="grid-item grid-item-post">
-            <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg"
-               data-size="1600x1067">
-                <img alt="picture"
-                     src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg"
-                     class="img-fluid">
-            </a>
+
+            <img id="myImg" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" alt="Snow"
+                 style="width:100%;max-width:300px">
+
         </div>
         <div class="grid-item grid-item">
-            <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg"
+            <a href="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg"
                data-size="1600x1067">
                 <img alt="picture"
                      src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg"
                      class="img-fluid"/>
             </a>
+
         </div>
         <div class="grid-item grid-item">
             <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg"
@@ -148,6 +149,11 @@
     </div>
 </div>
 
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+</div>
+
 <div id="News" class="tabcontent" style="display: none;">
 
 </div>
@@ -159,7 +165,7 @@
 <div id="About" class="tabcontent" style="display: none;">
 
 </div>
-
+<script src="Modal.js"></script>
 </body>
 
 </html>
