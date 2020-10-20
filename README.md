@@ -1,5 +1,5 @@
 # My-Instagram-profile
-My Instagram profile with Html, CSS, JavaScript..
+My Instagram profile with Html, CSS, JavaScript, jQuery..
 
 Instagram home page and editing profile 
 
